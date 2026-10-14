@@ -324,12 +324,9 @@ class DashboardPage extends StatelessWidget {
                     children: [
                       // Avatar bulat
                       CircleAvatar(
-                        radius: 26,
-                        backgroundImage: const NetworkImage(
-                          'wowo.png', // Fallback, Anda bisa ganti image path
-                        ),
-                        backgroundColor: Colors.grey[300],
-                      ),
+                     radius: 26,
+                     backgroundImage: AssetImage('assets/wowo.png'), // Nama file foto Anda
+                          ),
                       // Tanggal Tag
                       Container(
                         padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
